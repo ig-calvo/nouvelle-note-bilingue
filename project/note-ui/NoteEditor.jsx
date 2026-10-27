@@ -1025,7 +1025,7 @@ function NoteEditor({ isOpen, onOpen, onComplete, onPatchArchivedTx, completeRef
                       <span className="material-icons-outlined">handyman</span>
                     </button>
                   : null}
-                {[
+                {showClinicalTools && [
                   { label: t('noteEditor.assurancePrivee.label') },
                   { label: t('noteEditor.cardiologie.label') },
                   { label: 'CNESST' },
